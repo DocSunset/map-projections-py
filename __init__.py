@@ -19,4 +19,4 @@ def vector_to_coordinates(vector):
   y = vector[1] / norm
   z = vector[2] / norm
 
-  return (math.atan2(-x, y), math.acos(z))
+  return (math.atan2(-x, y), math.asin(z))
